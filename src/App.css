@@ -1,1 +1,14 @@
-/* Other rules */
+/* ---------------------- */
+/* Global rules */
+/* ---------------------- */
+
+:root {
+  --spacing: 16px;
+  --light-grey: #E8E8E8;
+  --medium-grey: #C0C0C0;
+  --dark-grey: #6f6f6f;
+  --mint-green: #99FFCC;
+  --main-title-font: 'Martel', Georgia, 'Times New Roman', Times, serif;
+  --subtitle-font: 'Cormorant', Georgia, 'Times New Roman', Times, serif;
+  --text-font: 'Proza Libre', Georgia, 'Times New Roman', Times, serif;
+}
