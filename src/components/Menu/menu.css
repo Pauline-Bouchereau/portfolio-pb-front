@@ -12,8 +12,36 @@ aside {
     position: fixed;
     top: 0;
     left: 0;
+    padding: var(--spacing) 0;
 }
 
 aside > img {
-    width: 40%
+    width: 40%;
+    margin-bottom: calc(var(--spacing)*4);
+    cursor: pointer
+}
+
+aside > menu {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside > menu a {
+    font-family: var(--subtitle-font);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+aside > menu li:not(:last-child){
+    margin-bottom: calc(var(--spacing)*4);
+}
+
+aside > menu li:hover {
+    color: white;
+    background-color: var(--dark-grey);
+    width: 170px;
+    text-align: center;
 }
