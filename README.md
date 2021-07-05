@@ -7,7 +7,7 @@
 **Fullstack project**
 
 👉 Netlify Link to see the live version [HERE](https://pauline-bouchereau-dev.app/)  
-👉 Repo for the Frontend of this project [HERE](https://github.com/Pauline-Bouchereau/portfolio-pb-back)
+👉 Repo for the Backend of this project [HERE](https://github.com/Pauline-Bouchereau/portfolio-pb-back)
 
 _Made in 2021 - personnal project_
 

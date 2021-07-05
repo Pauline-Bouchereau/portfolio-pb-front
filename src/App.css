@@ -12,3 +12,34 @@
   --subtitle-font: 'Cormorant', Georgia, 'Times New Roman', Times, serif;
   --text-font: 'Proza Libre', Georgia, 'Times New Roman', Times, serif;
 }
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+margin-left: 200px;
+}
+
+/* Sections */
+section {
+  min-height: 400px;
+  padding-left: 20px
+}
+
+/* Titles */
+
+/* Paragraphs */
+p {
+  font-family: var(--text-font);
+}
+
+/* Links */
+
+a {
+  color : inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
