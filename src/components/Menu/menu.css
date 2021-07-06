@@ -3,45 +3,40 @@
 /* ---------------------- */
 
 aside {
-    background-color: var(--light-grey);
-    width : 200px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: var(--spacing) 0;
-}
-
-aside > img {
-    width: 40%;
-    margin-bottom: calc(var(--spacing)*4);
-    cursor: pointer
+  background-color: var(--light-grey);
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: var(--spacing) 0;
 }
 
 aside > menu {
-    height: 60%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
 }
 
 aside > menu a {
-    font-family: var(--subtitle-font);
-    font-weight: bold;
-    font-size: 24px;
+  font-family: var(--main-title-font);
+  font-weight: bold;
+  font-size: 20px;
 }
 
-aside > menu li:not(:last-child){
-    margin-bottom: calc(var(--spacing)*4);
+aside > menu li:not(:last-child) {
+  margin-bottom: calc(var(--spacing) * 4);
 }
 
 aside > menu li:hover {
-    color: white;
-    background-color: var(--dark-grey);
-    width: 170px;
-    text-align: center;
+  color: white;
+  background-color: var(--dark-grey);
+  width: 170px;
+  text-align: center;
 }

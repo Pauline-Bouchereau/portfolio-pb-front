@@ -1,6 +1,6 @@
-#  👩🏻‍💻 MY PORTFOLIO
+# 👩🏻‍💻 MY PORTFOLIO
 
-🚧 WORK ON PROGRESS ! 🚧
+🚧 WORK IN PROGRESS ! 🚧
 
 **Looking for a Javascript Developper ?** Discover my experience and my work on my portfolio website !
 
@@ -13,17 +13,16 @@ _Made in 2021 - personnal project_
 
 ### ⚙️ Main functionalities :
 
-
 ### 🔧 Stack
 
 ✔️ JavaScript  
 ✔️ React.JS  
 ✔️ HTLM  
-✔️ CSS  
+✔️ CSS
 
 ### 🪛 Packages
 
-✔️ Axios  
+✔️ Axios
 
 ### 🚀 Running the project
 
@@ -37,7 +36,7 @@ cd portfolio-pb-front
 #### Install packages :
 
 ```javascript
-yarn
+yarn;
 ```
 
 #### When installation is complete :

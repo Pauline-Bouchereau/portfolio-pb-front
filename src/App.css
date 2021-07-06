@@ -4,13 +4,13 @@
 
 :root {
   --spacing: 16px;
-  --light-grey: #E8E8E8;
-  --medium-grey: #C0C0C0;
+  --light-grey: #e8e8e8;
+  --medium-grey: #c0c0c0;
   --dark-grey: #6f6f6f;
-  --mint-green: #99FFCC;
-  --main-title-font: 'Martel', Georgia, 'Times New Roman', Times, serif;
-  --subtitle-font: 'Cormorant', Georgia, 'Times New Roman', Times, serif;
-  --text-font: 'Proza Libre', Georgia, 'Times New Roman', Times, serif;
+  --mint-green: #99ffcc;
+  --main-title-font: "Martel", Georgia, "Times New Roman", Times, serif;
+  --subtitle-font: "Cormorant", Georgia, "Times New Roman", Times, serif;
+  --text-font: "Proza Libre", Georgia, "Times New Roman", Times, serif;
 }
 
 * {
@@ -20,16 +20,32 @@
 }
 
 .container {
-margin-left: 200px;
+  margin-left: 200px;
 }
 
 /* Sections */
 section {
   min-height: 400px;
-  padding-left: 20px
+  padding: calc(var(--spacing) * 3);
 }
 
 /* Titles */
+
+h2,
+h3 {
+  font-family: var(--main-title-font);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: var(--spacing);
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: calc(var(--spacing) * 2);
+}
 
 /* Paragraphs */
 p {
@@ -39,7 +55,7 @@ p {
 /* Links */
 
 a {
-  color : inherit;
+  color: inherit;
   text-decoration: none;
   cursor: pointer;
 }
