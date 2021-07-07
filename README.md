@@ -36,7 +36,7 @@ cd portfolio-pb-front
 #### Install packages :
 
 ```javascript
-yarn;
+yarn
 ```
 
 #### When installation is complete :
