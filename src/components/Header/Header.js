@@ -9,7 +9,7 @@ const Header = () => {
       <div>
         <p>
           {" "}
-          Cherche stage <br /> 6 mois !
+          🔎 stage <br /> 6 mois !
         </p>
       </div>
       <img

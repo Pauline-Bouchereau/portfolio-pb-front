@@ -7,6 +7,7 @@
   --light-grey: #e8e8e8;
   --medium-grey: #c0c0c0;
   --dark-grey: #6f6f6f;
+  --extradark-grey: #3a3a3a;
   --mint-green: #99ffcc;
   --main-title-font: "Martel", Georgia, "Times New Roman", Times, serif;
   --subtitle-font: "Cormorant", Georgia, "Times New Roman", Times, serif;
@@ -50,6 +51,8 @@ h3 {
 /* Paragraphs */
 p {
   font-family: var(--text-font);
+  line-height: 20px;
+  color: var(--extradark-grey);
 }
 
 /* Links */

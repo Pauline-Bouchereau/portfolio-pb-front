@@ -21,8 +21,18 @@
 
 #about p {
   text-align: justify;
+  margin-bottom: calc(var(--spacing) * 2);
 }
 
-#about p:not(:last-child) {
-  margin-bottom: calc(var(--spacing) * 2);
+#about > div > div:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+#about > div img {
+  width: 40px;
+}
+
+#about > div img:first-child {
+  margin-right: calc(var(--spacing) * 2);
 }

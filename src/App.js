@@ -10,6 +10,11 @@ import Resume from "./components/Resume/Resume";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
+// To go from dev mode to live mode --> change the serverUrl :
+// Local server : "http://localhost:3001"
+// Heroku server : ""
+const serverUrl = "http://localhost:3001";
+
 function App() {
   return (
     <div>
@@ -18,9 +23,9 @@ function App() {
         <Header />
         <About />
         <Stack />
-        <Projects />
+        <Projects serverUrl={serverUrl} />
         <Resume />
-        <Contact />
+        <Contact serverUrl={serverUrl} />
         <Footer />
       </div>
     </div>

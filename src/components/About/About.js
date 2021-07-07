@@ -25,6 +25,20 @@ const About = () => {
           travail en équipes acquises dans mes prédécentes expériences, je suis
           prête à me lancer dans le monde du développement !
         </p>
+        <div>
+          <a href="https://www.linkedin.com/in/pbouchereau/" target="blank">
+            <img
+              src="https://res.cloudinary.com/pauline-cloudinary/image/upload/v1620920650/usefull/logo-linkedin_vo1qf3.png"
+              alt="logo Linked In"
+            />
+          </a>
+          <a href="https://github.com/Pauline-Bouchereau" target="blank">
+            <img
+              src="https://res.cloudinary.com/pauline-cloudinary/image/upload/v1620920833/usefull/GitHub-Mark-64px_xdntbc.png"
+              alt="Logo Github"
+            />
+          </a>
+        </div>
       </div>
       <img src={photoPB} alt="Pauline Bouchereau" />
     </section>
